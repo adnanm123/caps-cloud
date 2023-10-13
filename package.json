@@ -1,0 +1,21 @@
+{
+  "name": "caps-cloud",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:vendor": "node vendor.js",
+    "start:driver": "node driver.js",
+    "test": "jest --verbose --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1473.0",
+    "jest": "^29.7.0"
+  },
+  "devDependencies": {
+    "aws-sdk-mock": "^5.8.0"
+  }
+}
